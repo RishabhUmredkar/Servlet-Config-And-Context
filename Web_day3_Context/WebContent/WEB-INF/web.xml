@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+<<<<<<< HEAD
+  <display-name>Web_day3_Config</display-name>
+=======
+  <display-name>Web_day3_Config&amp;Context</display-name>
+>>>>>>> 2918866 (first commit)
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  
+<<<<<<< HEAD
+      <servlet-name>c</servlet-name>
+=======
+    <servlet-name>c</servlet-name>
+>>>>>>> 2918866 (first commit)
+    <servlet-class>adminServ</servlet-class>
+    
+    <init-param>
+      <param-name>ram</param-name>
+      <param-value>Rishabh</param-value>
+    </init-param>
+  
+  </servlet>
+<<<<<<< HEAD
+
+=======
+  
+  <context-param>
+      <param-name>ram</param-name>
+      <param-value>Rishabh</param-value>
+      
+  </context-param>
+  
+  
+>>>>>>> 2918866 (first commit)
+  <servlet-mapping>
+    <servlet-name>c</servlet-name>
+    <url-pattern>/admin</url-pattern>
+  </servlet-mapping>
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 2918866 (first commit)
+</web-app>
